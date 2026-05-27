@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Sleek Route Path representing safe flight track -->
+    <path
+        android:pathData="M30,69 C41,64 54,48 46,42 C38,36 32,54 44,55 C56,56 62,38 74,31"
+        android:strokeColor="#A0FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- 2. Crimson Map Pin / Location Anchor at the bottom left -->
+    <path
+        android:pathData="M30,84 C30,84 20,73 20,66 C20,60.5 24.5,56 30,56 C35.5,56 40,60.5 40,66 C40,73 30,84 30,84 Z"
+        android:fillColor="#E11D48" />
+
+    <!-- 3. Crimson Map Pin Inner White Accent Dot -->
+    <path
+        android:pathData="M30,62 C32.2,62 34,63.8 34,66 C34,68.2 32.2,70 30,70 C27.8,70 26,68.2 26,66 C26,63.8 27.8,62 30,62 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- 4. Flying Paper Airplane in Yellow/Gold at top right -->
+    <!-- Left main wing fold -->
+    <path
+        android:pathData="M64,31 L84,19 L79,41 Z"
+        android:fillColor="#FCD34D" />
+
+    <!-- Right main wing fold with darker shading for elegant visual depth -->
+    <path
+        android:pathData="M70,38 L84,19 L79,41 Z"
+        android:fillColor="#F59E0B" />
+
+    <!-- Under-shading piece representing the crease -->
+    <path
+        android:pathData="M64,31 L70,38 L84,19 Z"
+        android:fillColor="#FBBF24" />
+
+</vector>

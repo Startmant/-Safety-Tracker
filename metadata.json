@@ -1,0 +1,6 @@
+{
+  "name": "Women Safety Tracker",
+  "description": "A comprehensive real-time women's safety tracking app with emergency SOS button, contact syncing, live audio/video panic recording, and automated authorities notification alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
